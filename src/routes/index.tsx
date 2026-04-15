@@ -1,26 +1,34 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { HeroSection } from "@/components/HeroSection";
+import { ProductsSection } from "@/components/ProductsSection";
+import { BenefitsSection } from "@/components/BenefitsSection";
+import { ResultsSection } from "@/components/ResultsSection";
+import { CTASection } from "@/components/CTASection";
 
 export const Route = createFileRoute("/")({
   component: Index,
+  head: () => ({
+    meta: [
+      { title: "Farma Viva Leve Saúde - Tirzepatida com os Melhores Preços" },
+      { name: "description", content: "Os melhores preços em Tirzepatida do Brasil. Resultados reais com qualidade e segurança. Entre no grupo e receba ofertas exclusivas." },
+      { property: "og:title", content: "Farma Viva Leve Saúde - Tirzepatida" },
+      { property: "og:description", content: "Transforme seu corpo com acompanhamento e produtos de procedência confiável." },
+    ],
+  }),
 });
 
-// IMPORTANT: Replace this placeholder. For sites with multiple pages (About, Services, Contact, etc.),
-// create separate route files (about.tsx, services.tsx, contact.tsx) — don't put all pages in this file.
-function PlaceholderIndex() {
-  return (
-    <div
-      className="flex min-h-screen items-center justify-center"
-      style={{ backgroundColor: "#fcfbf8" }}
-    >
-      <img
-        data-lovable-blank-page-placeholder="REMOVE_THIS"
-        src="https://cdn.gpteng.co/blank-app-v1.svg"
-        alt="Your app will live here!"
-      />
-    </div>
-  );
-}
-
 function Index() {
-  return <PlaceholderIndex />;
+  return (
+    <main className="min-h-screen">
+      <HeroSection />
+      <ProductsSection />
+      <BenefitsSection />
+      <ResultsSection />
+      <CTASection />
+      
+      <footer className="border-t border-border px-4 py-6 text-center text-xs text-muted-foreground">
+        © 2026 Farma Viva Leve Saúde. Todos os direitos reservados.
+      </footer>
+    </main>
+  );
 }
