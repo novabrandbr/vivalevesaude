@@ -4,11 +4,13 @@ import r3 from "@/assets/resultado-3.png";
 import r4 from "@/assets/resultado-4.png";
 import r5 from "@/assets/resultado-5.png";
 import r6 from "@/assets/resultado-6.png";
+import r7 from "@/assets/resultado-7.png";
 
 const results = [
   { img: r1, label: "Transformação incrível" },
   { img: r2, label: "Antes e Depois" },
   { img: r3, label: "22kg a menos em 2 meses" },
+  { img: r7, label: "Transformação real" },
   { img: r4, label: "Resultados reais de clientes" },
   { img: r5, label: "20kg a menos em 2 meses" },
   { img: r6, label: "Resultado visível" },

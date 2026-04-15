@@ -13,7 +13,7 @@ export function CTASection() {
           </p>
 
           <a
-            href="https://chat.whatsapp.com/SEU_LINK_AQUI"
+            href="https://chat.whatsapp.com/JlcGVqe22TFIzBkaFyew61"
             target="_blank"
             rel="noopener noreferrer"
             className="gradient-cta glow-cta animate-pulse-slow inline-flex items-center gap-2 rounded-xl px-8 py-4 text-lg font-bold text-cta-foreground transition-all hover:scale-105"
