@@ -7,14 +7,6 @@ import { CTASection } from "@/components/CTASection";
 
 export const Route = createFileRoute("/")({
   component: Index,
-  head: () => ({
-    meta: [
-      { title: "Farma Viva Leve Saúde - Tirzepatida com os Melhores Preços" },
-      { name: "description", content: "Os melhores preços em Tirzepatida do Brasil. Resultados reais com qualidade e segurança. Entre no grupo e receba ofertas exclusivas." },
-      { property: "og:title", content: "Farma Viva Leve Saúde - Tirzepatida" },
-      { property: "og:description", content: "Transforme seu corpo com acompanhamento e produtos de procedência confiável." },
-    ],
-  }),
 });
 
 function Index() {
