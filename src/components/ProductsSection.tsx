@@ -1,25 +1,15 @@
-import produtos from "@/assets/produtos-tirzepatida.png";
-
 export function ProductsSection() {
   return (
     <section className="px-4 py-12">
       <div className="mx-auto max-w-3xl text-center">
         <h2 className="mb-2 text-2xl font-bold text-foreground sm:text-3xl">
-          Nossos Produtos
+          Por que escolher a Viva Leve?
         </h2>
         <p className="mb-8 text-muted-foreground">
           Tirzepatida de alta qualidade com procedência garantida
         </p>
 
-        <div className="glow-brand overflow-hidden rounded-2xl border border-brand-teal/20 bg-card">
-          <img
-            src={produtos}
-            alt="Produtos Tirzepatida - Lipoless, Lipoland, T.G.15, Tirzec"
-            className="w-full object-cover"
-          />
-        </div>
-
-        <div className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-4">
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
           {[
             { icon: "✔", text: "Alta procura no mercado" },
             { icon: "✔", text: "Qualidade validada" },
