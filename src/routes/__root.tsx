@@ -33,6 +33,10 @@ export const Route = createRootRoute({
       { name: "description", content: "Os melhores preços em Tirzepatida do Brasil. Qualidade e segurança." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
+      { property: "og:title", content: "Farma Viva Leve Saúde" },
+      { name: "twitter:title", content: "Farma Viva Leve Saúde" },
+      { property: "og:description", content: "Os melhores preços em Tirzepatida do Brasil. Qualidade e segurança." },
+      { name: "twitter:description", content: "Os melhores preços em Tirzepatida do Brasil. Qualidade e segurança." },
     ],
     links: [
       {
