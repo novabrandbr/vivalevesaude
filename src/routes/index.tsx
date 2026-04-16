@@ -3,6 +3,7 @@ import { HeroSection } from "@/components/HeroSection";
 import { ProductsSection } from "@/components/ProductsSection";
 import { BenefitsSection } from "@/components/BenefitsSection";
 import { ResultsSection } from "@/components/ResultsSection";
+import { DeliveriesSection } from "@/components/DeliveriesSection";
 import { CTASection } from "@/components/CTASection";
 
 export const Route = createFileRoute("/")({
@@ -16,6 +17,7 @@ function Index() {
       <ProductsSection />
       <BenefitsSection />
       <ResultsSection />
+      <DeliveriesSection />
       <CTASection />
       
       <footer className="border-t border-border px-4 py-6 text-center text-xs text-muted-foreground">
