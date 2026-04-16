@@ -1,19 +1,19 @@
 import r1 from "@/assets/resultado-1.png";
 import r2 from "@/assets/resultado-2.png";
 import r3 from "@/assets/resultado-3.png";
-import r4 from "@/assets/resultado-4.png";
 import r5 from "@/assets/resultado-5.png";
-import r6 from "@/assets/resultado-6.png";
-import r7 from "@/assets/resultado-7.png";
+import rNew1 from "@/assets/resultado-new-1.png";
+import rNew2 from "@/assets/resultado-new-2.png";
+import rNew3 from "@/assets/resultado-new-3.png";
 
 const results = [
+  { img: rNew1, label: "Transformação masculina" },
+  { img: rNew2, label: "Resultado impressionante" },
+  { img: rNew3, label: "Antes e Depois" },
   { img: r1, label: "Transformação incrível" },
   { img: r2, label: "Antes e Depois" },
   { img: r3, label: "22kg a menos em 2 meses" },
-  { img: r7, label: "Transformação real" },
-  { img: r4, label: "Resultados reais de clientes" },
   { img: r5, label: "20kg a menos em 2 meses" },
-  { img: r6, label: "Resultado visível" },
 ];
 
 export function ResultsSection() {
@@ -35,7 +35,7 @@ export function ResultsSection() {
               key={i}
               className="group overflow-hidden rounded-xl border border-border bg-card transition-all hover:border-brand-teal/40 hover:shadow-lg hover:shadow-brand-teal/10"
             >
-              <div className="aspect-square overflow-hidden">
+              <div className="aspect-[4/3] overflow-hidden">
                 <img
                   src={r.img}
                   alt={r.label}
