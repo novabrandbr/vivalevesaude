@@ -1,11 +1,14 @@
 import logo from "@/assets/logo-viva-leve.png";
 import produtos from "@/assets/produtos-tirzepatida.png";
+import heroBg from "@/assets/hero-bg.jpg";
 
 export function HeroSection() {
   return (
-    <section className="gradient-hero relative flex min-h-[100svh] flex-col items-center justify-between overflow-hidden px-4 py-6 text-center">
-      {/* Decorative glow */}
-      <div className="pointer-events-none absolute left-1/2 top-0 h-[400px] w-[400px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-brand-teal/10 blur-[120px]" />
+    <section className="relative flex min-h-[100svh] flex-col items-center justify-between overflow-hidden px-4 py-6 text-center">
+      {/* Background image */}
+      <img src={heroBg} alt="" aria-hidden="true" className="pointer-events-none absolute inset-0 h-full w-full object-cover" width={1920} height={1080} />
+      {/* Overlay for readability */}
+      <div className="pointer-events-none absolute inset-0 bg-black/30" />
 
       <div className="relative flex w-full max-w-md flex-1 flex-col items-center justify-center gap-3">
         {/* 1. Logo pequena */}
