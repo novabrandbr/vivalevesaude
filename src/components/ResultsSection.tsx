@@ -5,6 +5,7 @@ import r5 from "@/assets/resultado-5.png";
 import rNew1 from "@/assets/resultado-new-1.png";
 import rNew2 from "@/assets/resultado-new-2.png";
 import rNew3 from "@/assets/resultado-new-3.png";
+import rGrid from "@/assets/resultado-grid.png";
 
 const results = [
   { img: rNew1, label: "Transformação masculina" },
@@ -27,6 +28,16 @@ export function ResultsSection() {
           <p className="text-muted-foreground">
             Veja as transformações reais dos nossos clientes
           </p>
+        </div>
+
+        {/* Full grid image — shown complete */}
+        <div className="mb-6 overflow-hidden rounded-xl border border-border bg-card">
+          <img
+            src={rGrid}
+            alt="Resultados de transformação - antes e depois"
+            className="h-auto w-full object-contain"
+            loading="lazy"
+          />
         </div>
 
         <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 sm:gap-4">
