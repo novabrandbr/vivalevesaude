@@ -35,11 +35,11 @@ export function ResultsSection() {
               key={i}
               className="group overflow-hidden rounded-xl border border-border bg-card transition-all hover:border-brand-teal/40 hover:shadow-lg hover:shadow-brand-teal/10"
             >
-              <div className="aspect-[4/3] overflow-hidden">
+              <div className="overflow-hidden">
                 <img
                   src={r.img}
                   alt={r.label}
-                  className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  className="h-auto w-full object-contain transition-transform duration-300 group-hover:scale-105"
                   loading="lazy"
                 />
               </div>

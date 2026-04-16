@@ -6,7 +6,7 @@ export function HeroSection() {
   return (
     <section className="relative flex min-h-[100svh] flex-col items-center justify-between overflow-hidden px-4 py-6 text-center">
       {/* Background image — subtle, soft */}
-      <img src={heroBg} alt="" aria-hidden="true" className="pointer-events-none absolute inset-0 h-full w-full object-cover opacity-15 blur-[2px]" width={1920} height={1080} />
+      <img src={heroBg} alt="" aria-hidden="true" className="pointer-events-none absolute inset-0 h-full w-full object-cover opacity-25 blur-[2px]" width={1920} height={1080} />
       {/* Dark overlay */}
       <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-black/70 via-background/80 to-background/95" />
       {/* Vignette edges */}
