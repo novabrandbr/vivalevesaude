@@ -24,16 +24,10 @@ export function HeroSection() {
         </div>
 
         <h1 className="text-2xl font-extrabold leading-tight tracking-tight sm:text-4xl">
-          <span className="text-gradient-brand">Resultados Reais</span>
+          <span className="text-gradient-brand">Os melhores preços de tirzepatida em São Paulo</span>
           <br />
-          <span className="text-foreground">com Qualidade e Segurança</span>
+          <span className="text-foreground">Com produtos originais e envio rápido</span>
         </h1>
-
-        <p className="max-w-xs text-sm text-muted-foreground">
-          <span className="font-bold text-gradient-fire">Os melhores preços do Brasil em tirzepatida</span>
-          <br />
-          Transforme seu corpo com procedência confiável
-        </p>
 
         <div className="w-full max-w-xs overflow-hidden rounded-xl border border-brand-teal/20">
           <img
